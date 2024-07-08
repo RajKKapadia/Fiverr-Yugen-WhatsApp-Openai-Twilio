@@ -23,16 +23,16 @@ def chat_complition(prompt: str) -> dict:
         - dict
     '''
     try:
-        completion = client.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": prompt}
-            ]
-        )
+        # completion = client.chat.completions.create(
+        #     model="gpt-4o",
+        #     messages=[
+        #         {"role": "system", "content": "You are a helpful assistant."},
+        #         {"role": "user", "content": prompt}
+        #     ]
+        # )
         return {
             'status': 1,
-            'response': completion.choices[0].message.content
+            'response': "hi",#completion.choices[0].message.content
         }
     except:
         return {
