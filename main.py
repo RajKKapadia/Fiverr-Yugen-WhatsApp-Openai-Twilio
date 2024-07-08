@@ -1,7 +1,7 @@
 from flask import Flask, request
 from dotenv import load_dotenv, find_dotenv
 
-from openai_functions import chat_complition
+from openai_functions_old import chat_complition
 from twilio_functions import send_message
 
 
