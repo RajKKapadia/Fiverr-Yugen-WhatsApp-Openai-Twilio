@@ -39,199 +39,206 @@ Knowledge base:
 
 
 Project Name: One Hundred
-Location: 100 Alenbi Street, Tel Aviv
-Developer: City Boy and Yuvalim
-Type: Residential and Commercial
+Location: אלנבי פינת מונטיפיורי, תל אביב
+Developer: קבוצות יובלים וסיטי בוי
+Type: Residential
 Floors: 6
 Number of Apartments: 29
-Apartment Types: 2-room apartments with balcony, 3 penthouses, garden apartment with private yard
-Penthouses: 3
-Garden Apartment: Yes
-Architect: Gidi Bar-Orian
-Architect Info: Leading architect in urban renewal, combining new construction with existing fabric
-Construction Start Date: 2023
-Sales Start Date: N/A
-Completion Date: 2027
-Parking: Yes
-Specification: Customizable
-Payment Terms: 7% on contract signing, 1,800,000 ILS contractor loan until 9/27 interest-free, remaining balance by 9/27 except 5%, 5% on delivery 12/27
-Description: Boutique 6-story building with 29 elegant apartments, commercial floor, new office building
-Theme: Reflects unique charm of Tel Aviv's main streets
-Renovation: Allenby is transforming into an urban pedestrian street with cafes, bars, shops
-Attractions: Rothschild Boulevard, light rail stations under construction (date of completion unknown), cultural, culinary, and lifestyle spots
-Ceilings: 2.90-4.00 meters
-Balconies: Large balconies with urban views
-Kitchens: Premium kitchens by DADA Molteni, Italian design
-Facilities: Gym, laundry room, lounge, commercial ground floor
-Living Experience: High-standard urban living in the heart of Tel Aviv
-Access: Easy access to transport routes, near light rail stations, bike paths
-Lifestyle: Top living standards, surrounded by Tel Aviv's opportunities
-Bank Guarantee: בנק הבינלאומי
-Features: Urban lifestyle, high-end design, close to Rothschild Boulevard
-Area: Near cafes, bars, restaurants, galleries, designer shops
-Highlights: Urban renewal, exclusive residential project, cultural and design renaissance
-Developer Info: Established in 2000, experienced in urban renewal and high-end residential projects
-Transport: Close to major transport routes and light rail stations
-Recreation: Bike paths connecting to Rothschild Boulevard
-Amenities: Gym, laundry room, lounge, designed common areas
-Vision: Combines classic and modern, quiet yet vibrant living in Tel Aviv
-Units: Spacious boutique apartments, garden apartment, 3 penthouses
-Style: Urban Tel Aviv architecture, high-quality finish
-Selling Points: Prime location, exclusive design, premium amenities
-Contact Details: המאבק 9, רמת השרון, 03-5490020
-Sales Start Date: N/A
-Construction Company: N/A
-Target Audience: Urban professionals, families
-Unique Selling Proposition: Exclusive living in a boutique building with high-end amenities
-Energy Efficiency: Standard
-Nearby Schools: Tel Aviv School District
-Commercial Spaces: Yes, on the ground floor
-Green Spaces: No
-Cultural Significance: Located on a historic street undergoing a renaissance
-Architectural Style: Modern boutique design
-Number of Elevators: 2
-Security Features: Standard
-Pet Policy: Pet-friendly
-Rooftop Features: N/A
-Accessibility Features: Standard
-Public Transportation Proximity: Close to light rail stations
-View: Urban views
+Apartment Types: 2-room boutique apartments with balconies
+Penthouses: 3 penthouses with large balconies
+Garden Apartment: Ground floor garden apartment with large private yard
+Architect: גידי בר אוריין
+Architect Info: One of the leading urban renewal architects in Tel Aviv
+Construction Start Date: Not provided
+Sales Start Date: Not provided
+Completion Date: 12/2027
+Parking: Private underground parking
+Specification: Premium specification, customizable
+Payment Terms: 7% at contract signing, contractor loan of 1,800,000 ILS until 9/27 without interest, 95% by 9/27, 5% upon delivery
+Description: An exclusive residential project with boutique apartments, combining classic and contemporary design in the heart of Tel Aviv.
+Theme: Urban living with high standards and style
+Renovation: Street and area undergoing significant renovation to become a stylish pedestrian boulevard
+Attractions: Proximity to Rothschild Boulevard, cultural, culinary, and lifestyle hubs
+Ceilings: High ceilings (2.90-4.00 meters)
+Balconies: Yes, large balconies in penthouses and 2-room apartments
+Kitchens: Custom-designed DADA kitchens by Molteni
+Facilities: Gym, laundry room, lounge, lobby
+Living Experience: High standard, stylish urban living
+Access: Easy access to all parts of the city and beyond by walking, biking, or public transport
+Lifestyle: Urban lifestyle with cultural and culinary experiences
+Bank Guarantee: Yes, according to the Israeli Sale Law
+Features: Innovative office building, commercial ground floor
+Area: Heart of Tel Aviv, near Rothschild Boulevard
+Highlights: Exclusive living in a historic and renovated area
+Developer Info: Experienced developers with numerous successful projects in Tel Aviv
+Transport: Proximity to light rail and central transport routes
+Recreation: Close to cafes, bars, and the sea
+Amenities: High-end amenities including gym and lounge
+Vision: Creating iconic urban living spaces with a blend of history and modernity
+Units: 29 apartments
+Style: Boutique and elegant design
+Selling Points: High ceilings, premium kitchens, central location
+Contact Details: 03-5490020, Tollman's, המאבק 9, רמת השרון
+Sales Start Date: Not provided
+Construction Company: Not provided
+Target Audience: People seeking high-end urban living in Tel Aviv
+Unique Selling Proposition: Exclusive living in a renovated historic area with premium features
+Energy Efficiency: Not specified
+Nearby Schools: Not specified
+Commercial Spaces: Yes, commercial ground floor
+Green Spaces: Large private yard for garden apartment
+Cultural Significance: Part of Tel Aviv's urban renewal and historical preservation
+Architectural Style: Blend of classic and contemporary
+Number of Elevators: Not specified
+Security Features: Not specified
+Pet Policy: Not specified
+Rooftop Features: Not specified
+Accessibility Features: Close to light rail and major transport routes
+Public Transportation Proximity: Proximity to light rail and main transportation routes
+View: Urban view
 
 Apartments:
 ,Model,Apartment Number,Rooms,Floor,Parking,Storage,Area (sqm),Balcony (sqm),Direction,Design,Price (NIS)
+8,B,2,2.0,1,Underground regular,False,50.7,13.1,West/North,,4990000
+9,G,4,2.0,1,Underground regular,False,61.0,6.5,East,,5650000
+10,H,5,2.0,1,Underground regular,False,52.6,4.7,East/North,,4850000
+11,I,21,2.0,4,Underground regular,False,43.9,,North,,4290000
+12,D,27,3.0,,FALSE,False,64.0,57.0,,,9500000
+13,E,28,2.0,,FALSE,False,48.0,40.5,,,6750000
+14,F,29,2.0,,FALSE,False,60.0,25.0,,,7300000
+15,A,1,3.0,,FALSE,False,83.0,17.0,,,9500000
 ----------------------------------------------------------------------------------------------------
-Project Name: Julie
-Location: 91 Herzl Street, Tel Aviv
-Developer: יובלים, סיטי בוי, ולני גרופ
-Type: Residential
-Floors: 9
+Project Name: Julie Herzl
+Location: Intersection of Nahalat Binyamin, Salame, and Herzl streets, Tel Aviv
+Developer: Yovelim Group and Boy City
+Type: Residential Complex
+Floors: Not specified
 Number of Apartments: 152
-Apartment Types: 2-3 room apartments, duplexes, penthouses
-Penthouses: Yes
-Garden Apartment: No
-Architect: Yashar
-Architect Info: Established in 1956, innovative and inspiring designs
-Construction Start Date: N/A
-Sales Start Date: N/A
-Completion Date: 30/12/2026
-Parking: Yes, 5 underground levels
-Specification: VRF air conditioning, smart electricity system, luxury windows with electric blinds
-Payment Terms: 7% on contract signing, 1,800,000 ILS contractor loan until 9/26 interest-free, remaining balance by 9/26 except 5%, 5% on delivery 12/26
-Description: Unique residential complex offering high-end living in the heart of Tel Aviv
-Theme: Blend of urban Tel Aviv energy and classic European elegance
-Renovation: Combines urban energy with classic European quality
-Attractions: Close to Levinsky Market, Rothschild Boulevard, Nahalat Binyamin, Neve Tzedek
+Apartment Types: Two and three-room apartments
+Penthouses: No
+Garden Apartment: Not specified
+Architect: Yashar Architects
+Architect Info: Founded in 1956, Yashar Architects is one of the largest and oldest architecture firms in Israel. Known for innovative and aesthetic solutions that integrate naturally with their surroundings.
+Construction Start Date: Not specified
+Sales Start Date: Not specified
+Completion Date: Not specified
+Parking: 5 levels of underground private parking
+Specification: Includes smart electrical systems, VRF air conditioning, designed balconies with unique ironwork, and high ceilings.
+Payment Terms: Not specified
+Description: Julie Herzl is a unique residential complex offering a luxurious living experience in the heart of Tel Aviv. Inspired by European architecture, it blends urban energy with classic European elegance.
+Theme: Urban luxury with a European touch
+Renovation: Not applicable
+Attractions: Close to Rothschild Boulevard, Levinsky Market, Herzl entertainment areas, Neve Tzedek, and Nahalat Binyamin.
 Ceilings: High ceilings
-Balconies: Balconies with unique design
-Kitchens: Imported kitchens by Schüller
-Facilities: Luxury lobby, rooftop terrace, co-working spaces, gym, laundry room
-Living Experience: Luxurious urban living in the heart of Tel Aviv
-Access: Close to major transport routes, bike paths, and light rail stations
-Lifestyle: Premium urban lifestyle, vibrant and full of life
-Bank Guarantee: בנק לאומי
-Features: Modern design, luxury features, strategic location
-Area: Surrounded by cafes, bars, restaurants, and shops
-Highlights: High-end living, exclusive design, premium amenities
-Developer Info: Experienced in high-end residential projects, urban renewal, and commercial spaces
-Transport: Close to major transport routes, bike paths, and light rail stations
-Recreation: Bike paths connecting to major city areas
-Amenities: Luxury lobby, rooftop terrace, co-working spaces, gym, laundry room
-Vision: Offers the best of urban Tel Aviv and classic European elegance
-Units: 2-3 room apartments, duplexes, penthouses
-Style: European-style architecture with modern amenities
-Selling Points: Prime location, high-end design, premium amenities
-Contact Details: Sales Office: Herzel 91, Tel Aviv, sales1@julie.co.il
-Sales Start Date: N/A
-Construction Company: Electra Construction
-Target Audience: Trendsetters, urban enthusiasts, luxury seekers
-Unique Selling Proposition: Blend of urban Tel Aviv energy and classic European elegance
-Energy Efficiency: High, with smart electricity system and double-glazed windows
-Nearby Schools: Tel Aviv School District
-Commercial Spaces: Yes, on the ground floor
-Green Spaces: Yes, rooftop garden and private patios
-Cultural Significance: Located between Rothschild and Florentin, vibrant cultural hub
-Architectural Style: Classic European with modern urban elements
-Number of Elevators: 3
-Security Features: Advanced, with smart security systems
-Pet Policy: Pet-friendly
-Rooftop Features: Private rooftop terrace with seating areas and plunge pool
-Accessibility Features: High, with elevators and wide corridors
-Public Transportation Proximity: Adjacent to major transport routes and light rail stations
-View: Cityscape and rooftop garden views
+Balconies: Designed with unique ironwork and facing either the patio or the street.
+Kitchens: Not specified
+Facilities: Shared spaces including guest rooms, gyms, laundry rooms, yoga and Pilates studios, and designed workspaces.
+Living Experience: Exclusive urban living with high standards, designed for those who appreciate quality and luxury.
+Access: Walking distance to cafes, bars, restaurants, and cultural centers. Connected by bike paths and public transportation.
+Lifestyle: For trendsetters who love urban life and European luxury.
+Bank Guarantee: Not specified
+Features: Private rooftop with greenery, seating areas, and a plunge pool.
+Area: Located in the bustling and colorful area between Rothschild Boulevard and Florentin, Tel Aviv.
+Highlights: A unique blend of Tel Aviv's urban energy and European elegance.
+Developer Info: Yovelim Group and Boy City are experienced developers with a portfolio of successful projects across Israel.
+Transport: Proximity to all light rail lines and major transportation routes. Bike paths connecting to Rothschild Boulevard.
+Recreation: Close to numerous bars, restaurants, and cultural hotspots.
+Amenities: Includes gyms, shared workspaces, guest rooms, and private parking.
+Vision: To provide a luxurious and unique living experience in the heart of Tel Aviv.
+Units: 152
+Style: Modern yet timeless design with European influence.
+Selling Points: Exclusive location, luxurious facilities, high-quality design, and proximity to major attractions and transportation.
+Contact Details: Not specified
+Sales Start Date: Not specified
+Construction Company: Not specified
+Target Audience: Individuals who create trends, live by their own standards, and appreciate high-quality urban living.
+Unique Selling Proposition: Combining Tel Aviv's urban vibrancy with European quality and elegance, offering a luxurious living experience.
+Energy Efficiency: Not specified
+Nearby Schools: Not specified
+Commercial Spaces: Ground floor with cafes, shops, and boutique stores.
+Green Spaces: Private rooftop garden
+Cultural Significance: Proximity to Tel Aviv’s cultural and artistic centers.
+Architectural Style: European-inspired with modern and timeless design elements.
+Number of Elevators: Not specified
+Security Features: Not specified
+Pet Policy: Not specified
+Rooftop Features: Private, designed rooftop with greenery, seating areas, and a plunge pool.
+Accessibility Features: Proximity to major transportation routes and bike paths.
+Public Transportation Proximity: Close to all light rail lines and major bus routes.
+View: City views and potentially sea views from the rooftop.
 
 Apartments:
 ,Model,Apartment Number,Rooms,Floor,Parking,Storage,Area (sqm),Balcony (sqm),Direction,Design,Price (NIS)
-4,B12,12,2.0,1,True,False,49.4,6.93,South - Salma,,3490000
-5,B20,42,2.0,2,True,False,50.6,5.94,West - Patio,,3650000
-6,B5,27,2.0,2,True,False,54.3,7.4,West - Herzl,,3840000
-7,B16,82,2.0,4,True,False,52.2,8.95,East - Nahalat Binyamin,,4000000
+4,B12,12,2.0,1,TRUE,False,49.4,6.93,South - Salma,,3490000
+5,B20,42,2.0,2,TRUE,False,50.6,5.94,West - Patio,,3650000
+6,B5,27,2.0,2,TRUE,False,54.3,7.4,West - Herzl,,3840000
+7,B16,82,2.0,4,TRUE,False,52.2,8.95,East - Nahalat Binyamin,,4000000
 ----------------------------------------------------------------------------------------------------
 Project Name: Teador
-Location: 136-138 Herzl Street, Tel Aviv
-Developer: Leny and Yuvalim Group
+Location: 136-138 Herzl St., Tel Aviv
+Developer: Leny, City Boy, Yuvalim Group
 Type: Residential
-Floors: 13 (Building A), 12 (Building B)
+Floors: 13-story building A, 12-story building B
 Number of Apartments: 160
 Apartment Types: 2 and 3 rooms apartments, duplexes, penthouses
 Penthouses: Yes
-Garden Apartment: No
+Garden Apartment: Not specified
 Architect: Ilan Pivko
-Architect Info: Icon of contemporary global architecture, working on myriad projects since 1981
-Construction Start Date: N/A
-Sales Start Date: Immediate occupancy
-Completion Date: N/A
-Parking: Yes, private and innovative
-Specification: High-quality materials, advanced techniques
-Payment Terms: 7% on contract signing, 1,800,000 ILS contractor loan until 9/26 interest-free, remaining balance by 9/26 except 5%, 5% on delivery 12/26
-Description: New residential project on Herzl, inspired by Theodor Herzl's vision
-Theme: Blend of location, design, and style inspired by European living
-Renovation: Herzl is becoming the IT location in Tel Aviv, transforming into a vibrant urban space
-Attractions: Close to Rothschild Avenue, numerous cafes, bars, restaurants, boutiques
-Ceilings: N/A
-Balconies: N/A
-Kitchens: Imported kitchens by Schüller
-Facilities: Designed common areas, gym, modern amenities
-Living Experience: Modern European-style living in Tel Aviv
-Access: Close to major transport routes, bike paths, and light rail stations
-Lifestyle: Vibrant city life, trendy and up-to-date lifestyle
-Bank Guarantee: בנק לאומי
-Features: Modern design, luxury features, strategic location
-Area: Surrounded by cafes, bars, restaurants, and shops
-Highlights: High-end living, exclusive design, premium amenities
-Developer Info: Specializes in project management, development, construction, and fiN/Ace
-Transport: Close to major transport routes, bike paths, and light rail stations
-Recreation: Bike paths connecting to major city areas
-Amenities: Luxury lobby, rooftop terrace, co-working spaces, gym, laundry room
-Vision: Combines historical memento with modern living
-Units: 2 and 3 rooms apartments, duplexes, penthouses
-Style: European architectural concept by Ilan Pivko
-Selling Points: Prime location on Herzl, vibrant urban life, modern amenities
-Contact Details: Sales Office: Herzel 91, Tel Aviv, sales1@teodor.co.il
-Sales Start Date: Immediate occupancy
-Construction Company: עץ השקד
-Target Audience: Young professionals, families, investors
-Unique Selling Proposition: European-inspired modern living in a historic location
-Energy Efficiency: High, with advanced VRF air conditioning
-Nearby Schools: Tel Aviv School District
-Commercial Spaces: N/A
-Green Spaces: N/A
-Cultural Significance: Inspired by Theodor Herzl, located near the declaration site of Israel
-Architectural Style: Modern European
-Number of Elevators: 4
-Security Features: High, with 24/7 security
-Pet Policy: Pet-friendly
-Rooftop Features: N/A
-Accessibility Features: High, with accessibility in mind
-Public Transportation Proximity: Close to major transport routes, bike paths, and light rail stations
-View: Urban and historical views
+Architect Info: Ilan Pivko Architects, established in 1981, notable projects include Country compound in Glilot, Haogen project in Jaffa, Herbert Samuel in Tel Aviv
+Construction Start Date: Not specified
+Sales Start Date: Not specified
+Completion Date: Not specified
+Parking: Private and innovative parking spaces
+Specification: Unique design and character for each apartment
+Payment Terms: Not specified
+Description: Urban architecture inspired by Binyamin Ze'ev Theodor Herzl, located at the heart of Tel Aviv's cultural and economic center
+Theme: European living experience in Tel Aviv
+Renovation: Not applicable
+Attractions: Numerous cafes, bars, restaurants, boutiques
+Ceilings: Not specified
+Balconies: Not specified
+Kitchens: Not specified
+Facilities: Private parking, vibrant streets, numerous destinations for culture, clubs, culinary, fashion, lifestyle and fun
+Living Experience: Fresh, young, urban living experience
+Access: Prime location, close to Rothschild Avenue
+Lifestyle: Urban, vibrant, connected to the rhythm of Tel Aviv
+Bank Guarantee: Not specified
+Features: Architectural icon, contemporary and holistic European concept
+Area: Herzl St., Tel Aviv
+Highlights: Inspired by Theodor Herzl, central location, innovative design
+Developer Info: Leny, City Boy, Yuvalim Group - experienced developers with numerous notable projects in Tel Aviv and beyond
+Transport: Near public transportation lines
+Recreation: Numerous cafes, bars, restaurants, and cultural venues
+Amenities: Private parking, vibrant social scene
+Vision: Inspired by Theodor Herzl's vision, creating a unique urban living experience
+Units: 160
+Style: European architectural style
+Selling Points: Central location, innovative design, vibrant lifestyle
+Contact Details: sales1@teodor.co.il, Tel: +97235544431
+Sales Start Date: Not specified
+Construction Company: Leny, City Boy, Yuvalim Group
+Target Audience: Individuals seeking a vibrant urban lifestyle
+Unique Selling Proposition: Combination of historical significance, central location, and modern design
+Energy Efficiency: Not specified
+Nearby Schools: Not specified
+Commercial Spaces: Yes, numerous cafes, bars, restaurants, boutiques
+Green Spaces: Not specified
+Cultural Significance: Located near the historical site where Tel Aviv and the state of Israel were declared
+Architectural Style: European, contemporary
+Number of Elevators: Not specified
+Security Features: Not specified
+Pet Policy: Not specified
+Rooftop Features: Not specified
+Accessibility Features: Not specified
+Public Transportation Proximity: Yes, near public transportation lines
+View: City views
 
 Apartments:
 ,Model,Apartment Number,Rooms,Floor,Parking,Storage,Area (sqm),Balcony (sqm),Direction,Design,Price (NIS)
-0,A,3,2.5,2,True,True,67.5,11.8,East,"Designed by the company's interior designer, furnished and equipped with electrical appliances.",4490000
-1,B,4,3.0,2,True,True,73.7,4.2,South/East,"Designed by the company's interior designer, furnished and equipped with electrical appliances.",4730000
-2,H,8,2.5,3+4,True,True,,,,"Designed by the company's interior designer, furnished and equipped with electrical appliances.",4990000
-3,I,54,4.0,11+12,True,True,135.8,47.8,East/South/West,"Designed by the company's interior designer, furnished and equipped with electrical appliances.",11990000
-
+0,A,3,2.5,2,TRUE,True,67.5,11.8,East,"Designed by the company's interior designer, furnished and equipped with electrical appliances.",4490000
+1,B,4,3.0,2,TRUE,True,73.7,4.2,South/East,"Designed by the company's interior designer, furnished and equipped with electrical appliances.",4730000
+2,H,8,2.5,3+4,TRUE,True,,,,"Designed by the company's interior designer, furnished and equipped with electrical appliances.",4990000
+3,I,54,4.0,11+12,TRUE,True,135.8,47.8,East/South/West,"Designed by the company's interior designer, furnished and equipped with electrical appliances.",11990000
 
 """
 
