@@ -255,38 +255,50 @@ client = OpenAI(
 )
 
 
-def chat_complition(prompt: str) -> dict:
+
+
+
+def chat_complition(prompt: str, context: str = "") -> dict:
     '''
-    Call Openai API for text completion
+    Call OpenAI API for text completion
 
     Parameters:
         - prompt: user query (str)
+        - context: conversation history (str)
 
     Returns:
         - dict
     '''
     try:
 
-        
+
+               
         if random.random() < 0.6:
             master_prompt_v = master_prompt
         else:
             master_prompt_v = master_prompt.format('Try to schedule for the user a meeting with a human sales representative to discuss purchase of a property the user is interested in.')
 
+     
+        full_prompt = f"{context}\n\n{master_prompt_v}"
         
         completion = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": master_prompt_v},
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": full_prompt},
                 {"role": "user", "content": prompt}
-            ]
+            ],
+            max_tokens=1000,
+            temperature=0,
         )
         return {
             'status': 1,
-            'response': completion.choices[0].message.content
+            'response': completion.choices[0].message.content.strip()
         }
-    except:
+    except Exception as e:
+        print(f"OpenAI API error: {e}")
         return {
             'status': 0,
             'response': 'We are facing an issue at this moment.'
         }
+
