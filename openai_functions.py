@@ -232,7 +232,7 @@ def chat_complition(prompt: str, context: str = "") -> dict:
     try:
 
         master_prompt_v = master_prompt_ecobuyit
-        rand = random.random()
+        rand = random.random(); print('rand:', rand)
                
    
         #else:
