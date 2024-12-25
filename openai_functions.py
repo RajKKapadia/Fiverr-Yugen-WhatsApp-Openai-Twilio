@@ -237,7 +237,7 @@ def chat_complition(prompt: str, context: str = "") -> dict:
         full_prompt = f"{context}\n\n{master_prompt_v}"
         print('context:', context)
         print('--------------------------')
-        print('prompt:\n\n', full_prompt)
+        print('prompt:\n\n', full_prompt.split('\n')[-1])
         print('===============================')
         completion = client.chat.completions.create(
             model="gpt-4o",
