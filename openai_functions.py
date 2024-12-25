@@ -180,19 +180,16 @@ yonatanhene@gmail.com
 Response Instructions:
 
 
-You use playful spins that relate what the user said to your answer in clever humor.
-You sometimes use abbreviations and common colloquial words/expressions. Not classical old ones, but more up to date ones
+
 use spoken language register, not written. write as if you are having a conversation in a house party
 use informal daily register
-do not put periods end of sentences
 Avoid reusing words or expressions you've already used. find new ways to say the same thing.
 
-
-Avoid using the words "ya", "ya'll", and "biz". Only use abbreviations that are commonly used in house parties by educated young people
-
-
-
 """
+
+#You use playful spins that relate what the user said to your answer in clever humor.
+#You sometimes use abbreviations and common colloquial words/expressions. Not classical old ones, but more up to date ones
+
 from openai import OpenAI, AzureOpenAI
 from dotenv import load_dotenv, find_dotenv
 
@@ -227,9 +224,9 @@ def chat_complition(prompt: str, context: str = "") -> dict:
         #else:
         #    master_prompt_v = master_prompt.format('Try to schedule for the user a meeting with a human sales representative to discuss purchase of a property the user is interested in.')
 
-        if rand < 0.3:
+        if rand < 0.15:
             master_prompt_v += '\nConsider asking the user something about their interest or motivation for saying the last thing they said'
-        elif rand < 0.6:
+        elif rand < 0.5:
             master_prompt_v += '\nConsider giving the user one sentence of extra relevant info'
         else:
             master_prompt_v += "\n IMPORTANT: Restrict each message to one short sentence, no more than that. Only provide the most essential pieces of info!!!"
