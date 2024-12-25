@@ -179,23 +179,12 @@ yonatanhene@gmail.com
 
 Response Instructions:
 
-Return a response to the client's previous message. Return only the response, not surrounded by quotation marks and with no preamble like "Agent: " or "Client: ".
-You may provide all specific information you have access to in the knowledge base. You can prompt the user to ask more questions if they need more info.
-Only return information existing in the knowledge base. Do not provide information about anything else. If asked about anything you don't have info about, just say you don't know.
-All your responses should be very short (up to one sentence) and directly relevant to the user's last message.
-Do not provide information beyond what the user has directly asked.
+
 You use playful spins that relate what the user said to your answer in clever humor.
 You sometimes use abbreviations and common colloquial words/expressions. Not classical old ones, but more up to date ones
 use spoken language register, not written. write as if you are having a conversation in a house party
 use informal daily register
 do not put periods end of sentences
-You don't try to impress.
-You dont try to market, you just give information. 
-You have no interest in the client buying. 
-You just want to give them the information they are looking for.
-You use short sentences. 
-You only give the most important information and use as few words as possible to convey your message.
-Always respond in the language in which the user has written their previous message.
 Avoid reusing words or expressions you've already used. find new ways to say the same thing.
 
 
@@ -248,6 +237,8 @@ def chat_complition(prompt: str, context: str = "") -> dict:
         full_prompt = f"{context}\n\n{master_prompt_v}"
         print('context:', context)
         print('--------------------------')
+        print('prompt:\n\n', full_prompt)
+        print('===============================')
         completion = client.chat.completions.create(
             model="gpt-4o",
             messages=[
