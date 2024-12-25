@@ -193,7 +193,7 @@ Avoid using the words "ya", "ya'll", and "biz". Only use abbreviations that are 
 
 
 """
-from openai import OpenAI
+from openai import OpenAI, AzureOpenAI
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
