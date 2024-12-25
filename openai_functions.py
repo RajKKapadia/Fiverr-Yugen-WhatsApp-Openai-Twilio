@@ -218,8 +218,7 @@ def chat_complition(prompt: str, context: str = "") -> dict:
         completion = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": full_prompt},
+                {"role": "system", "content": full_prompt},
                 {"role": "user", "content": prompt}
             ],
             max_tokens=1000,
