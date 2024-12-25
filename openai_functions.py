@@ -238,7 +238,7 @@ def chat_complition(prompt: str, context: str = "") -> dict:
         #else:
         #    master_prompt_v = master_prompt.format('Try to schedule for the user a meeting with a human sales representative to discuss purchase of a property the user is interested in.')
 
-        elif rand < 0.3:
+        if rand < 0.3:
             master_prompt_v += '\nConsider asking the user something about their interest or motivation for saying the last thing they said'
         elif rand < 0.6:
             master_prompt_v += '\nConsider giving the user one sentence of extra relevant info'
