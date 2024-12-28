@@ -87,7 +87,7 @@ def chat_complition(prompt: str, context: str = "") -> dict:
 
        
         if len(context) < 5:
-            {
+            return {
             'status': 1,
             'response': intro_message
         }
@@ -108,7 +108,7 @@ def chat_complition(prompt: str, context: str = "") -> dict:
         else:
             master_prompt_v += "\n IMPORTANT: Restrict each message to one short sentence, no more than that. Only provide the most essential pieces of info!!!"
 
-        full_prompt = f"{context}\n\n{master_prompt_v}"
+        full_prompt = f"{context.strip()}\n\n{master_prompt_v.strip()}"
         print('context:', context)
         print('--------------------------')
         print('prompt:\n\n', full_prompt.split('\n')[-1])
