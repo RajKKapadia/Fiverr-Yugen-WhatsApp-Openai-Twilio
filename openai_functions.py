@@ -67,8 +67,13 @@ client = OpenAI(
     api_key=os.getenv('OPENAI_API_KEY')
 )
 
-
-
+endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+key = os.getenv("AZURE_OPENAI_API_KEY")
+client = AzureOpenAI(
+    azure_endpoint=endpoint,
+    api_version="2024-02-01",
+    api_key=key
+)
 
 
 def chat_complition(prompt: str, context: str = "") -> dict:
@@ -92,8 +97,6 @@ def chat_complition(prompt: str, context: str = "") -> dict:
             'response': intro_message
         }
 
-
-         
         master_prompt_v = master_prompt_ecobuyit
         rand = random.random(); print('rand:', rand)
                
