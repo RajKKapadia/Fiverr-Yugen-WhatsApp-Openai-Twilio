@@ -36,7 +36,7 @@ Your response should be in only one language, the language in which the user is 
 """
 
 kb = open('data/ecobuyit_kb.txt').read()
-intro_message = """
+intro_message_heb = """
 שלום וברוכים הבאים לצ'אט בוט החכם של אקובית!
 שמי YONIC, ואני כאן כדי לעזור לכם.
 
@@ -50,6 +50,44 @@ intro_message = """
 - נושא אחר שלא מופיע כאן
 
 אני זמין לכל שאלה או בקשה! 😊
+"""
+
+intro_message_fr = """
+
+Bonjour et bienvenue sur le chatbot intelligent d’EcoBuyIt !
+Je m’appelle YONIC, et je suis là pour vous aider.
+
+N’hésitez pas à me poser toutes les questions que vous souhaitez. Je suis alimenté par une intelligence artificielle et j’apprends et m’améliore en permanence.
+
+À quoi concerne votre demande ?
+
+    Facture d’eau
+    Problème d’infrastructure
+    Mise à jour du nombre de résidents
+    Signalement à EcoBuyIt, envoi d’un message ou téléchargement de documents
+    Un autre sujet non mentionné ici
+
+Je suis disponible pour toute question ou demande ! 😊
+
+"""
+
+intro_message_eng = """
+
+Hello and welcome to EcoBuyIt's smart chatbot!
+My name is YONIC, and I’m here to assist you.
+
+Feel free to ask me any question you'd like. I’m powered by artificial intelligence and constantly learning and improving.
+
+What is your inquiry related to?
+
+    Water bill
+    Infrastructure issue
+    Update on the number of residents
+    Reporting to EcoBuyIt, sending a message, or uploading documents
+    Another topic not listed here
+
+I’m available for any question or request! 😊
+
 """
 
 
@@ -95,6 +133,26 @@ def chat_complition(prompt: str, context: str = "") -> dict:
 
        
         if len(context) < 5:
+
+
+            completion = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": 'Return the name of language of the following message and nothing else. For example: English, Hebrew, French, Russian, German. Only the language in one word and that is it.'},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=10,
+            temperature=0,
+            )
+            lang = completion.choices[0].message.content.strip().lower()
+
+            if 'hebrew' in lang:
+                intro_message = intro_message_heb
+            elif 'french' in lang:
+                intro_message = intro_message_fr
+            else:
+                intro_message = intro_message_eng
+                    
             return {
             'status': 1,
             'response': intro_message
