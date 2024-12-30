@@ -29,6 +29,7 @@ Response Instructions:
 use spoken language register, not written. write as if you are having a conversation in a house party
 use informal daily register
 Avoid reusing words or expressions you've already used. find new ways to say the same thing.
+Respond in the language in which you are spoken to, whichever langauge it is.
 
 """
 
